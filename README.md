@@ -17,3 +17,12 @@ cd main/
 npx sv create
 npm install -D @sveltejs/adapter-cloudflare
 ```
+
+```
+mkdir accounts
+cd main/
+npx sv create
+npm install -D @sveltejs/adapter-cloudflare
+npm install -g wrangler
+wrangler init
+```
