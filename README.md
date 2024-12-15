@@ -24,5 +24,17 @@ cd main/
 npx sv create
 npm install -D @sveltejs/adapter-cloudflare
 npm install -g wrangler
-wrangler init
+wrangler init --no-c3
+```
+
+```
+mkdir accounts
+cd accounts/
+npm create cloudflare
+npm install hono
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss -i ./public/styles.css -o ./publiers\accounts> npx tailwindcss -i ./public/styles.css -o ./public/styles.c/styles.css --watch
+npx tailwindcss init
+npm install argon2
+
 ```
